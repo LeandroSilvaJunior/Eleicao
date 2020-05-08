@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_candidatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/candidatos"
+    />
+
+    <RadioGroup
+        android:id="@+id/rg_candidatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:checkedButton="@id/rb_joao">
+
+        <RadioButton
+            android:id="@+id/rb_joao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jo_o" />
+
+        <RadioButton
+            android:id="@+id/rb_jose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jos" />
+
+        <RadioButton
+            android:id="@+id/rb_maria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maria" />
+
+        <RadioButton
+            android:id="@+id/rb_luis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lu_s" />
+
+        <RadioButton
+            android:id="@+id/rb_branco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/branco" />
+
+        <RadioButton
+            android:id="@+id/rb_nulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nulo" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_confirmar_voto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="@string/confirmar"
+        android:onClick="confirmarVoto"/>
+
+</LinearLayout>

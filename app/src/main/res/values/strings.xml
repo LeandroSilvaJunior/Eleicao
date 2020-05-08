@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Eleicao</string>
+    <string name="candidatos">Candidatos</string>
+    <string name="jo_o">João</string>
+    <string name="jos">José</string>
+    <string name="maria">Maria</string>
+    <string name="lu_s">Luís</string>
+    <string name="branco">Branco</string>
+    <string name="nulo">Nulo</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="idade">Idade</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="sexo">Sexo</string>
+    <string name="sim">Sim</string>
+    <string name="n_o">Não</string>
+    <string name="escolaridade">Escolaridade</string>
+    <string name="possui_casa_pr_pria">Possui casa Própria?</string>
+    <string-array name="escolaridade_array">
+        <item>Analfabeto</item>
+        <item>Ensino Médio</item>
+        <item>Graduação</item>
+        <item>Pós graduação</item>
+    </string-array>
+</resources>
